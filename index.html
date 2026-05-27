@@ -19,7 +19,6 @@
             padding-bottom: 50px;
         }
 
-        /* 头部标题 */
         .header {
             text-align: center;
             padding: 40px 20px;
@@ -39,7 +38,6 @@
             opacity: 0.9;
         }
 
-        /* 容器通用样式 */
         .container {
             max-width: 1200px;
             margin: 30px auto;
@@ -63,7 +61,6 @@
             padding-left: 15px;
         }
 
-        /* 分组表格 */
         table {
             width: 100%;
             border-collapse: collapse;
@@ -85,7 +82,6 @@
             background: rgba(255,255,255,0.1);
         }
 
-        /* 球员身价布局 */
         .player-list {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
@@ -106,13 +102,11 @@
             font-size: 1.1rem;
         }
 
-        /* 赛程模块 */
         .schedule-item {
             padding: 12px;
             border-bottom: 1px dashed rgba(255,255,255,0.2);
         }
 
-        /* 视频模块（GitHub Pages优化版） */
         .video-box {
             width: 100%;
             margin-top: 15px;
@@ -126,7 +120,6 @@
             display: block;
         }
 
-        /* 响应式适配手机 */
         @media (max-width: 768px) {
             .header h1 {
                 font-size: 2rem;
@@ -139,14 +132,12 @@
     </style>
 </head>
 <body>
-    <!-- 页面头部 -->
     <div class="header">
         <h1>2026 美加墨世界杯</h1>
         <p>FIFA World Cup 2026 · 全球足球盛宴</p>
     </div>
 
     <div class="container">
-        <!-- 一、球队分组情况 -->
         <div class="card">
             <h2>球队分组情况</h2>
             <table>
@@ -195,7 +186,6 @@
             </table>
         </div>
 
-        <!-- 二、核心球员身价 -->
         <div class="card">
             <h2>热门球员身价（单位：万欧元）</h2>
             <div class="player-list">
@@ -226,7 +216,6 @@
             </div>
         </div>
 
-        <!-- 三、赛事日程（精选场次） -->
         <div class="card">
             <h2>精选比赛日程</h2>
             <div class="schedule-item">
@@ -249,7 +238,6 @@
             </div>
         </div>
 
-        <!-- 四、世界杯经济效益 -->
         <div class="card">
             <h2>赛事经济效益分析</h2>
             <p>1. <strong>旅游产业</strong>：本届世界杯由美、加、墨三国联合承办，预计吸引全球超500万游客入境，带动酒店、餐饮、交通行业大幅增收。</p>
@@ -261,17 +249,15 @@
             <p>4. <strong>就业与基建</strong>：场馆翻新、交通升级、配套设施建设，创造大量临时就业岗位，同时完善三国体育基础设施。</p>
         </div>
 
-        <!-- 五、视频播放区域（GitHub Pages专用） -->
         <div class="card">
             <h2>世界杯精彩视频</h2>
             <div class="video-box">
-                <!-- 👇 只需要修改这里的视频文件名，和你上传的视频保持一致即可 -->
                 <video controls preload="metadata" poster="https://picsum.photos/id/1058/1200/675">
-                    <source src="world-cup-2026.mp4" type="video/mp4">
+                    <source src="cup_video.mp4" type="video/mp4">
                     您的浏览器不支持视频播放，请使用 Chrome / Edge 打开。
                 </video>
             </div>
-            <p style="text-align: center; margin-top: 10px; opacity: 0.8;">2026美加墨世界杯官方宣传片 | 点击右下角全屏观看</p>
+            <p style="text-align: center; margin-top: 10px; opacity: 0.8;">2026美加墨世界杯官方宣传片</p>
         </div>
     </div>
 </body>
